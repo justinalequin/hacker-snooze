@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #DDE6D5;
+}
+
+.master{
+    width: 90%;
+}
+
+option {
+    background-color: #DDE6D5;
+}
+
+.click{
+    color: red;
+    text-align: center;
+}
+
+.me {
+    color: red;
+    text-align: center;
+}
+
+
+a {
+    color:#667B68;
+    text-decoration-line: none;
+    margin: 8px;
+    font-weight: bolder;
+}
+
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header{
+    margin-top: 10px;
+    height: 75px;
+    background-color: #667B68;
+    display: flex;
+    justify-content: center;
+    color: #F8D3C5;
+    text-shadow: 1px 1px #DDE6D5;
+    border-radius: 2px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.clock {
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+}
+
+.head-title{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.menu {
+    margin-top: 5px;
+    height: 35px;
+    background-color: #F8D3C5;
+    display: flex;
+    justify-content: center;
+    color: black;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.bar{
+    width: 500px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.stories {
+    
+
+}
+
+.back-stories{
+
+    margin: 10px;
+    background-color: #CAD5C4;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: 0 0 10px gray;
+}
+
+.footer {
+
+}
+
+p {
+    font-weight: bolder;
+    color: gray;
+}
+
+button {
+    background-color:#DDE6D5 ;
+    opacity: 50%;
+    box-shadow: gray 1px 1px;
+    border-radius: 3px;
+    
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+    /* .header{height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    .header{height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    .head-title{text-align: center;}
+    .seeComments{text-overflow: ellipsis;}
+    a{
+    width: 300px;
+    word-wrap: break-word;    
+    }
+}
+
+option {
+    text-align: center;
+}
+
+.form-control {
+    background-color: #CAD5C4;
+    display: flex;
+    justify-content: center;
+    border: dashed #667B68 5px;
+    box-shadow: 0 0 10px #fff;
+}
